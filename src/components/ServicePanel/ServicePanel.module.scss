@@ -1,0 +1,13 @@
+.image {
+  overflow: hidden;
+
+  img {
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}
